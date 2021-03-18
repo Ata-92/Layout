@@ -45,6 +45,10 @@ body {
   background-color: rgba(0, 0, 0, .3);
 }
 
+.main {
+  height: 125rem;
+}
+
 .main__article {
   margin: 2rem 1rem;
   line-height: 1.5rem;
@@ -72,4 +76,16 @@ body {
   content: "";
   display: block;
   clear: both;
+}
+
+.footer {
+  background-color: #F36283;
+  position: fixed;
+  bottom: 0;
+  width: 60%;
+}
+
+.footer__div {
+  padding: 1rem;
+  margin: 1rem;
 }
